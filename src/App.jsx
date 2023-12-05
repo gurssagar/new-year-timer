@@ -34,7 +34,7 @@ const countTime = () => {
             </div>
             <div>
             <div>
-                <h2 className="heading">Join the Countdown Bash to 2023!</h2>
+                <h2 className="heading">Join the Countdown Bash to 2024!</h2>
                 <div id="start">
                 <div className="time">
                     <p className="ele">{`${timeLeft.days}`}</p>
