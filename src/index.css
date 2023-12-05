@@ -139,6 +139,10 @@ button:focus-visible {
   .ele{
     font-size: 50px;
   }
+  .test{
+    visibility: hidden;
+    overflow: hidden;
+  }
 
 }
 
@@ -146,7 +150,7 @@ button:focus-visible {
     justify-content: space-between;
     display: flex;
   background-color:#1E1B37 ;
-  width:300px;
+  width:100%;
   height: 65px;
   text-align: center;
   justify-content: center;
