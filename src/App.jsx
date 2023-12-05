@@ -36,22 +36,26 @@ const countTime = () => {
             <div>
                 <h2 className="heading">Join the Countdown Bash to 2024!</h2>
                 <div id="start">
+                    <div className="test">Coming</div>
                 <div className="time">
-                    <p className="ele">{`${timeLeft.days}`}</p>
                     <p className="extra">Days</p>
+                    <p className="ele">{`${timeLeft.days}`}</p>
                 </div>
                 <div className="time">
+                    <p className="extra">Hours</p>
                     <p className="ele">{`${timeLeft.hours}`}</p>
-                   <p className="extra">Hours</p>
+
                 </div>
                 <div className="time">
+                    <p className="extra">Mins</p>
                     <p className="ele">{`${timeLeft.minutes}`}</p>
-                    <p className="extra">Minutes</p>
+
                 </div>
                 <div className="time">
+                    <p className="extra">Secs</p>
                     <p className="ele">{`${timeLeft.seconds}`}</p>
-                    <p className="extra">Seconds</p>
                 </div>
+                    <div className="test">Soon</div>
             </div>
         </div>
         </div>
