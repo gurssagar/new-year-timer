@@ -1,5 +1,5 @@
 import { useLottie } from "lottie-react";
-import groovyWalkAnimation from "../public/OuTfXsO6jm.json";
+import groovyWalkAnimation from "../public/Animation.json";
 
 const App = () => {
     const options = {
@@ -9,7 +9,7 @@ const App = () => {
 
     const { View } = useLottie(options);
 
-    return <>{View}</>;
+    return <div className="no">{View}</div>;
 };
 
 export default App;

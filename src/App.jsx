@@ -28,6 +28,8 @@ const countTime = () => {
     }, []);
 
     return (
+        <>
+            <App/>
         <div className="main">
             <div>
 
@@ -60,6 +62,7 @@ const countTime = () => {
         </div>
         </div>
         </div>
+        </>
     );
 };
 
